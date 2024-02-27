@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beranda</title>
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,6 +15,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!--header tampilan atas di web, start-->
+
     <header>
       <div class="logo">
         <h2>SAMSAT.</h2>
@@ -23,6 +26,7 @@
         <li><a href="#">Home</a></li>
         <li><a href="#about">Tentang Kami</a></li>
         <li><a href="#Jadwal">Jadwal & Titik Layanan</a></li>
+        <li><a href="#informasi">Informasi</a></li>
         <li><a href="#Kontak">Lokasi</a></li>
       </ul>
 
@@ -38,7 +42,9 @@
       <h1>SELAMAT DATANG <br />SAMSAT KOTA SUKABUMI</h1>
     </div>
 
-    <!-- about section-->
+    <!--header tampilan atas di web, start-->
+
+    <!-- about section, start-->
     <section id="about" class="about">
       <h2>Tentang Kami</h2>
 
@@ -64,9 +70,42 @@
           </p>
         </div>
       </div>
+      <h3>SAMSAT</h3>
+      <div class="border">
+        <div class="tujuan">
+          <h3>Tujuan</h3>
+          <p>
+            1. Memberikan pelayanan registrasi dan identifikasi kendaraan
+            bermotor (Ranmor)
+          </p>
+          <p>2. Pembayaran pajak atas kendaraan bermotor</p>
+          <p>
+            3. Sumbangan wajib dana kecelakaan lalu lintas dan angkutan jalan.
+          </p>
+        </div>
+        <div class="fungsi">
+          <h3>Fungsi</h3>
+          <p>
+            Kantor Samsat merupakan wadah bagi Kepolisian Negara Republik
+            Indonesia (Polri) yang membidangi lalu lintas, diwakilkan oleh
+            Dirlantas Polda.
+          </p>
+          <p>
+            Kemudian Satuan Kerja Pengelola Keuangan Daerah yang melaksanakan
+            pemungutan pajak Provinsi diwakili oleh Dinas Pendapatan (Dispenda).
+          </p>
+          <p>
+            Serta Badan Usaha dalam menyelenggarakan Samsat (PT. Jasa Raharja).
+            Ketiga instansi tersebut selanjutnya disebut sebagai Tim Pembina
+            Samsat.
+          </p>
+        </div>
+      </div>
     </section>
-    <script src="script.js"></script>
 
+    <!-- about section, end-->
+
+    <!--jadwal dan titik layanan yang tersedia, start-->
     <div class="jadwal" id="Jadwal">
       <h1>Jadwal & Titik Layanan</h1>
     </div>
@@ -121,8 +160,12 @@
       </div>
     </div>
 
-    <div class="layanan" id="Layanan">
-      <h1>LAYANAN</h1>
+    <!--jadwal dan titik layanan yang tersedia, end-->
+
+    <!--slider untuk poto poto, start-->
+
+    <div class="layanan" id="informasi">
+      <h1>INFORMASI</h1>
       <div class="wrapper">
         <div class="slider">
           <span id="slide-1"></span>
@@ -158,11 +201,16 @@
         </div>
       </div>
     </div>
-    <!-- contact section-->
+
+    <!--slider untuk poto poto, end-->
+
+    <!-- contact section untuk informasi kontak dan lokasi, start-->
 
     <section id="Kontak" class="contact">
       <h2>LOKASI</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, iure!</p>
+      <p>
+        Klik Peta Dibawah Untuk Mendapatkan Titik Lokasi Samsat Yang Akurat.
+      </p>
 
       <div class="row">
         <iframe
@@ -198,20 +246,35 @@
       </div>
     </section>
 
+    <!-- contact section untuk informasi kontak dan lokasi, end-->
+
+    <!--footer untuk logo dan tampilan credit, start-->
     <footer>
+      <div class="logoku">
+        <img src="samsat.png" alt="" />
+        <img src="jabar.png" alt="" />
+        <img src="poldajabar.png" alt="" />
+        <img src="jr.png" alt="" />
+      </div>
       <div class="links">
         <a href="#">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#Jadwal">Jadwal & Titik Layanan</a>
+        <a href="#informasi">Informasi</a>
       </div>
       <div class="credit">
-        <p>Created by <a href="">Larz281</a>. | &copy; 2024.</p>
+        <p>2024 &copy; Samsat Kota Sukabumi</p>
       </div>
     </footer>
 
-    <!-- js featter icon-->
+    <!--footer untuk logo dan tampilan credit, end-->
+
+    <!-- js untuk menampilkan featter icon-->
     <script>
       feather.replace();
     </script>
+
+    <!--js untuk header-->
+    <script src="script.js"></script>
   </body>
 </html>
