@@ -30,7 +30,7 @@ header {
   position: fixed;
   color: rgb(255, 255, 255);
   z-index: 9999;
-  border-bottom: groove 1rem;
+  border-bottom: groove;
 }
 header ul {
   display: flex;
