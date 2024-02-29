@@ -140,63 +140,6 @@ header ul li a:hover::after {
 
 /* slides untuk menampilkan poto poto , start */
 
-.layanan {
-  text-align: center;
-  padding: 8rem 7% 1.4rem;
-  background: rgb(255, 255, 255);
-  background-size: cover;
-}
-.img {
-  display: flex;
-  width: 100%;
-  transition: 2s;
-  padding-top: 30px;
-}
-.img img {
-  width: 100%;
-}
-.wrapper {
-  width: 80%;
-  margin: auto;
-  border-radius: 25x;
-  overflow: hidden;
-}
-#slide-1:target ~ .img {
-  margin-left: 0px;
-}
-#slide-2:target ~ .img {
-  margin-left: -100%;
-}
-#slide-3:target ~ .img {
-  margin-left: -200%;
-}
-#slide-4:target ~ .img {
-  margin-left: -300%;
-}
-.nav a {
-  display: inline-block;
-  height: 25px;
-  width: 25px;
-  background-color: #dedede;
-  font-size: 0px;
-  border-radius: 50%;
-  margin: 3px;
-  transition: 1s;
-}
-.nav a:hover {
-  background-color: #666;
-}
-.nav {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  text-align: center;
-  margin-top: -60px;
-  z-index: 1;
-}
-
 /* slides untuk menampilkan poto poto , end */
 
 .jadwal {
@@ -221,7 +164,7 @@ header ul li a:hover::after {
 }
 .about .row .about-img img {
   width: 70%;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 .about .row .about-img2 {
   display: none;
@@ -316,6 +259,7 @@ header ul li a:hover::after {
 .contact {
   padding: 8rem 7% 1.4rem;
   background-color: rgb(150, 150, 150);
+  border-style: groove;
 }
 .contact h2 {
   text-align: center;
@@ -336,6 +280,7 @@ header ul li a:hover::after {
   margin-top: 2rem;
   background-color: #222;
   border-radius: 2rem;
+  border-style: groove;
 }
 .contact .row .map {
   flex: 1 1 45rem;
