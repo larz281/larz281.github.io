@@ -214,7 +214,8 @@ header ul li a:hover::after {
 .about .border .fungsi h3 {
 }
 .about .border .tujuan p,
-.about .border .fungsi p {
+.about .border .fungsi p,
+.about .aplikasi p {
   margin-top: 2rem;
   text-align: left;
   font-size: 1.2rem;
@@ -222,8 +223,21 @@ header ul li a:hover::after {
   color: #181818;
   text-align: justify;
 }
+.about .aplikasi p {
+  text-indent: 1.5rem;
+  font-size: 1.5rem;
+}
+.about .aplikasi img {
+  width: 25rem;
+  margin-top: 2rem;
+  justify-content: center;
+  margin-left: 25rem;
+}
 .about .border .fungsi p {
   text-indent: 1.2rem;
+}
+.about .border .fungsi a {
+  text-decoration: underline;
 }
 .about .border .tujuan,
 .about .border .fungsi {
@@ -280,6 +294,7 @@ header ul li a:hover::after {
   margin: auto;
   font-weight: 100;
   line-height: 1.6;
+  font-size: 1.4rem;
 }
 .contact .row {
   display: flex;
@@ -381,6 +396,9 @@ footer .credit a {
     font-weight: 100;
     line-height: 1.6;
   }
+  .about .aplikasi img {
+    margin-left: 17rem;
+  }
 }
 /* Responsif point untuk tablet */
 @media screen and (max-width: 768px) {
@@ -475,15 +493,11 @@ footer .credit a {
   .about .border .fungsi p {
     font-size: 1.4rem;
   }
+  .about .aplikasi img {
+    margin-left: 16rem;
+  }
 }
-.contact .row .media .p-flex {
-  display: flex;
-}
-footer .logoku img {
-  width: 60px;
-  margin-right: 1rem;
-  margin-left: 1rem;
-}
+
 /* Responsif point untuk ponsel */
 
 @media screen and (max-width: 450px) {
@@ -552,5 +566,8 @@ footer .logoku img {
     width: 45px;
     margin-right: 1.2rem;
     margin-left: 1.2rem;
+  }
+  .about .aplikasi img {
+    margin-left: 1rem;
   }
 }
