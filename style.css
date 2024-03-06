@@ -228,10 +228,10 @@ header ul li a:hover::after {
   font-size: 1.5rem;
 }
 .about .aplikasi img {
-  width: 25rem;
-  margin-top: 2rem;
+  width: 40%;
+  margin-top: 3rem;
   justify-content: center;
-  margin-left: 25rem;
+  margin-left: 23rem;
 }
 .about .border .fungsi p {
   text-indent: 1.2rem;
@@ -397,7 +397,7 @@ footer .credit a {
     line-height: 1.6;
   }
   .about .aplikasi img {
-    margin-left: 17rem;
+    margin-left: 20rem;
   }
 }
 /* Responsif point untuk tablet */
@@ -494,7 +494,7 @@ footer .credit a {
     font-size: 1.4rem;
   }
   .about .aplikasi img {
-    margin-left: 16rem;
+    margin-left: 15rem;
   }
 }
 
@@ -568,6 +568,7 @@ footer .credit a {
     margin-left: 1.2rem;
   }
   .about .aplikasi img {
-    margin-left: 1rem;
+    margin-left: 3rem;
+    width: 70%;
   }
 }
